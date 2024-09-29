@@ -223,13 +223,17 @@
 #define TMC2130_INTPOL_E    1         // extrapolate 256 for E axis
 // #define ALLOW_ALL_MRES
 
-#define TMC2130_PWM_GRAD_X  2         // PWMCONF
-#define TMC2130_PWM_AMPL_X  230       // PWMCONF
+//#define TMC2130_PWM_GRAD_X  2         // PWMCONF
+//#define TMC2130_PWM_AMPL_X  230       // PWMCONF
+#define TMC2130_PWM_GRAD_X  4         // MKH PWMCONF
+#define TMC2130_PWM_AMPL_X  225       // MKH PWMCONF
 #define TMC2130_PWM_AUTO_X  1         // PWMCONF
 #define TMC2130_PWM_FREQ_X  2         // PWMCONF
 
-#define TMC2130_PWM_GRAD_Y  2         // PWMCONF
-#define TMC2130_PWM_AMPL_Y  235       // PWMCONF
+//#define TMC2130_PWM_GRAD_Y  2         // PWMCONF
+//#define TMC2130_PWM_AMPL_Y  235       // PWMCONF
+#define TMC2130_PWM_GRAD_Y  4         // MKH PWMCONF
+#define TMC2130_PWM_AMPL_Y  255       // MKH PWMCONF
 #define TMC2130_PWM_AUTO_Y  1         // PWMCONF
 #define TMC2130_PWM_FREQ_Y  2         // PWMCONF
 
@@ -288,6 +292,7 @@
 #define TMC2130_DEDGE_STEPPING
 
 //#define TMC2130_SERVICE_CODES_M910_M918
+#define TMC2130_SERVICE_CODES_M910_M918 //MKH
 
 //#define TMC2130_DEBUG
 //#define TMC2130_DEBUG_WR
